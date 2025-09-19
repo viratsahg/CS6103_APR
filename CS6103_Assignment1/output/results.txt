@@ -1,1 +1,19 @@
+=== PCA + Logistic Regression on Iris Dataset ===
 
+Test accuracy: 0.8158
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      0.92      0.96        12
+  versicolor       0.71      0.77      0.74        13
+   virginica       0.77      0.77      0.77        13
+
+    accuracy                           0.82        38
+   macro avg       0.83      0.82      0.82        38
+weighted avg       0.82      0.82      0.82        38
+
+Confusion Matrix:
+[[11  1  0]
+ [ 0 10  3]
+ [ 0  3 10]]
